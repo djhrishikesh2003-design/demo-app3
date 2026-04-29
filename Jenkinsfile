@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: git url:'https://github.com/djhrishikesh2003-design/demo-app3.git' ,
+                    url: 'https://github.com/djhrishikesh2003-design/demo-app3.git' ,
                     credentialsId: 'github-token'
             }
         }
